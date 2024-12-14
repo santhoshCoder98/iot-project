@@ -10,8 +10,8 @@ HardwareSerial serialPort(2); // use UART2
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&serialPort);
 
 // WiFi credentials
-const char* ssid = "POCO F4";
-const char* password = "ashwin123";
+const char* ssid = "Your_SSID";
+const char* password = "Your_PASSWORD";
 
 // Flask server endpoint
 const char* serverURL = "http://192.168.187.167:5000/upload-template";
